@@ -1,2 +1,1 @@
-let text = 'Hello IQVIA!'
-console.log(text)
+the little brown fox jumped over the lazy dog
