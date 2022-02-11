@@ -1,8 +1,10 @@
-//Dip Branch code
+//main Branch code
 
-const num1 = 5;
-const num2 = 3;
+const points = [40, 100, 1, 5, 25, 10];
 
-const sum = num1 + num2;
-
-console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
+for (let i = points.length -1; i > 0; i--) {
+  let j = Math.floor(Math.random() * i)
+  let k = points[i]
+  points[i] = points[j]
+  points[j] = k
+} 
