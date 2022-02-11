@@ -1,3 +1,5 @@
-let text = "Hello,, I am Dip";
+// Now I am in main branch
+// I am creating a conflict with 'dip.js' file in 'Dip' Branch
 
-console.log(text);
+let d = new Date();
+alert("Today's date is " + d);
