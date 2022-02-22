@@ -1,2 +1,2 @@
-let text = 'Hello IQVIA Interns'
+let text = 'Hello from Sakib'
 console.log(text)
